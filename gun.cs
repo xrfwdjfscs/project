@@ -8,9 +8,9 @@ public class gun : MonoBehaviour
     public GameObject BulletPrefab;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))//按下k键
         {
-            Instantiate(BulletPrefab, transform.position, transform.rotation);
+            Instantiate(BulletPrefab, transform.position, transform.rotation);//子弹出现
         }
     }
 }
